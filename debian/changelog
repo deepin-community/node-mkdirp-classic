@@ -1,5 +1,30 @@
-template-repository (1.0-1) unstable; urgency=medium
+node-mkdirp-classic (0.5.3-3) unstable; urgency=medium
 
-  * Initial release
+  * Team upload
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ lintian-brush ]
+  * Set upstream metadata fields: Bug-Submit
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright)
+  * Update standards version to 4.6.1, no changes needed
+
+  [ Yadd ]
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Use dh-sequence-nodejs instead of pkg-js-tools
+  * Fix debian watch
+  * Drop dependency to nodejs
+
+ -- Yadd <yadd@debian.org>  Mon, 31 Oct 2022 11:55:59 +0100
+
+node-mkdirp-classic (0.5.3-2) unstable; urgency=medium
+
+  * No-changes source-only upload.
+
+ -- Andrius Merkys <merkys@debian.org>  Fri, 05 Feb 2021 00:22:34 -0500
+
+node-mkdirp-classic (0.5.3-1) unstable; urgency=medium
+
+  * Initial release (Closes: #981624)
+
+ -- Andrius Merkys <merkys@debian.org>  Tue, 02 Feb 2021 04:01:16 -0500
